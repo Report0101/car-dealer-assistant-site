@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A personal assistant for reviewing car dealer replies and coordinating viewing appointments.">
+<title>Car Dealer Assistant — Le Hoang</title>
+<style>body{margin:0;background:#f5f7f4;color:#172c27;font:18px/1.65 system-ui,sans-serif}main{max-width:720px;margin:8vh auto;padding:28px}h1{font-size:clamp(2rem,6vw,3.2rem);line-height:1.15;letter-spacing:-.04em}h2{font-size:1.25rem;margin-top:2rem}a{color:#14644a}small{color:#52645d}.tag{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase}footer{border-top:1px solid #cbd8d0;margin-top:3rem;padding-top:1.5rem}</style>
+<main>
+<p class="tag">Personal use · Le Hoang</p>
+<h1>Car Dealer Assistant</h1>
+<p>A private assistant that helps Le Hoang review car dealer replies, collect vehicle information and coordinate viewing appointments against Google Calendar.</p>
+<h2>What it does</h2>
+<p>The assistant uses an authorized Gmail connection to detect new mail and review relevant dealer conversations. It records vehicle details, missing information and appointment proposals in a private database. Google Calendar helps check availability.</p>
+<p>The current deployment runs in dry-run mode: it records proposed actions for review. Automatic dealer email and appointment changes require separate, explicit activation. The assistant cannot buy a vehicle, make a deposit or accept a contract.</p>
+<h2>Google account access</h2>
+<p>Access is granted through Google's OAuth consent screen. Gmail's IMAP connection requires the full-mail permission, although the application opens that connection read-only and implements no mail deletion. Calendar event access supports scheduling and explicitly authorized tests.</p>
+<p>This website provides public application information only. It has no Google sign-in form, account credentials, inbox content or private dashboard data.</p>
+<footer><a href="privacy.html">Privacy policy</a> · <a href="mailto:leanhhoang186@gmail.com">Contact Le Hoang</a><p><small>Operated by Le Hoang for personal use. Not affiliated with Google or any car dealer.</small></p></footer>
+</main>
+</html>
