@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy · Car Dealer Assistant</title>
+<style>body{margin:0;background:#f5f7f4;color:#172c27;font:17px/1.7 system-ui,sans-serif}main{max-width:720px;margin:5vh auto;padding:28px}h1{font-size:2.3rem;line-height:1.2}h2{font-size:1.25rem;margin-top:2rem}a{color:#14644a}small{color:#52645d}footer{border-top:1px solid #cbd8d0;margin-top:3rem;padding-top:1rem}</style>
+<main>
+<a href="./">Car Dealer Assistant</a>
+<h1>Privacy policy</h1>
+<p><small>Effective 7 September 2026</small></p>
+<p>Car Dealer Assistant is operated by Le Hoang for personal car-shopping administration. It is not offered as a public account service.</p>
+<h2>Information accessed and stored</h2>
+<p>With the account owner's OAuth authorization, the service accesses Gmail mailbox changes, relevant dealer messages and their conversation context, sender and subject information, and Google Calendar events needed to check appointment availability. It stores relevant message content and identifiers, vehicle information, scheduling details, proposed decisions and audit records in a private PostgreSQL database. Application logs may include relevant decision summaries.</p>
+<p>IMAP requires Google's full-mail scope, which technically permits reading, composing, sending and permanently deleting mail. The application uses IMAP read-only, implements no deletion action, and gates email sends separately. Calendar event permission allows reading and editing events; real appointments are changed only within the separately approved automation policy. Dedicated test events may be created and cleaned up during authorized acceptance testing.</p>
+<h2>Purpose and sharing</h2>
+<p>Google user data is used only to provide the owner's requested dealer correspondence, vehicle review and scheduling assistance. It is not sold, used for advertising or used to train general-purpose AI models. Authorized operators may inspect relevant records to maintain and test the service.</p>
+<p>Railway hosts the worker, database, secrets and logs; the deployment currently uses its US East region. Google processes Gmail and Calendar API requests. GitHub Pages hosts these public information pages and may process visitor connection information under GitHub's privacy policy. Private mailbox data and OAuth credentials are not published to GitHub Pages. If the owner enables an external notification provider such as Telegram, selected relevant alert content will be sent to the owner's configured destination.</p>
+<h2>Credential protection</h2>
+<p>OAuth credentials are stored separately from public source and website files and are excluded from application build uploads. Google connections use TLS; database traffic uses Railway's private network. Credentials are not intentionally written to application logs. This website does not collect Google passwords, OAuth tokens or mailbox content and uses no analytics or tracking scripts.</p>
+<h2>Retention, revocation and deletion</h2>
+<p>Private records are retained until the owner deletes them; no automatic retention schedule is currently configured. The owner can revoke Google access at any time through Google Account security settings. Revocation stops future authorized access but does not erase already stored records. To request deletion of stored records and credentials, contact Le Hoang using the address below. Service-provider logs and backups remain subject to their applicable retention controls.</p>
+<h2>Google API limited use</h2>
+<p>Car Dealer Assistant's use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+<h2>Contact and changes</h2>
+<p>Contact: <a href="mailto:leanhhoang186@gmail.com">leanhhoang186@gmail.com</a>. Material changes to data handling will be reflected on this page with an updated effective date.</p>
+<footer><a href="./">Back to application information</a></footer>
+</main>
+</html>
